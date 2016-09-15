@@ -92,12 +92,12 @@ endfunction
 " Composition ------------------------------------------------------------ {{{1
 
 " PRIMITIVES
-call s:HL('Boolean'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Character'	  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Constant'	  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Float'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('Number'		  , s:palette.gray09, s:palette.black , 'bold'	   )
-call s:HL('String'		  , s:palette.gray12, s:palette.black , 'none'	   )
+call s:HL('Boolean'		  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('Character'	  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('Constant'	  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('Float'		  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('Number'		  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('String'		  , s:palette.white, s:palette.black , 'none'	   )
 call s:HL('SpecialChar'	  , s:palette.white , s:palette.black , 'none'	   )
 
 " COMMENTS
@@ -176,7 +176,7 @@ call s:HL('FoldColumn'	  , s:palette.gray06, s:palette.black , 'bold'	   )
 call s:HL('Folded'		  , s:palette.gray06, s:palette.black , 'bold'	   )
 
 " PARENTHESIS
-call s:HL('MatchParen'	  , s:palette.orange, s:palette.black , 'bold'	   )
+call s:HL('MatchParen'	  , s:palette.white, s:palette.black , 'bold'	   )
 
 " POPUP
 call s:HL('Pmenu'		  , s:palette.white , s:palette.gray09, 'none'	   )
