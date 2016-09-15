@@ -115,8 +115,8 @@ call s:HL('ColorColumn'	  , s:palette.white , s:palette.gray03, 'none'	   )
 call s:HL('CursorColumn'  , s:palette.gray16, s:palette.gray03, 'none'	   )
 
 " VISUAL MODE
-call s:HL('Visual'		  , s:palette.green , s:palette.gray06, 'none'	   )
-call s:HL('VisualNOS'	  , s:palette.green , s:palette.gray06, 'none'	   )
+call s:HL('Visual'		  , s:palette.white , s:palette.gray06, 'none'	   )
+call s:HL('VisualNOS'	  , s:palette.white , s:palette.gray06, 'none'	   )
 
 " SEARCH
 call s:HL('Search'		  , s:palette.black , s:palette.yellow, 'bold'	   )
@@ -164,16 +164,16 @@ call s:HL('Label'		  , s:palette.white	, s:palette.black , 'bold'	   )
 call s:HL('Exception'	  , s:palette.white	, s:palette.black , 'bold'	   )
 
 " MISC
-call s:HL('Normal'		  , s:palette.gray19, s:palette.black , 'none'	   )
+call s:HL('Normal'		  , s:palette.white, s:palette.black , 'none'	   )
 call s:HL('Cursor'		  , s:palette.white , s:palette.black , 'none'	   , 'gui_macvim')
-call s:HL('Underlined'	  , s:palette.gray12, s:palette.black , 'underline')
+call s:HL('Underlined'	  , s:palette.white, s:palette.black , 'underline')
 call s:HL('SpecialKey'	  , s:palette.white	, s:palette.black , 'bold'	   )
 call s:HL('NonText'		  , s:palette.white , s:palette.black , 'bold'	   )
 call s:HL('Directory'  	  , s:palette.orange, s:palette.black , 'none'	   )
 
 " FOLD
-call s:HL('FoldColumn'	  , s:palette.gray06, s:palette.black , 'bold'	   )
-call s:HL('Folded'		  , s:palette.gray06, s:palette.black , 'bold'	   )
+call s:HL('FoldColumn'	  , s:palette.white, s:palette.black , 'bold'	   )
+call s:HL('Folded'		  , s:palette.white, s:palette.black , 'bold'	   )
 
 " PARENTHESIS
 call s:HL('MatchParen'	  , s:palette.white, s:palette.black , 'bold'	   )
@@ -203,36 +203,3 @@ call s:HL('DiffChange'	  , s:palette.white , s:palette.blue  , 'none'	   )
 call s:HL('DiffDelete'	  , s:palette.white , s:palette.red   , 'none'	   )
 call s:HL('DiffText'	  , s:palette.black , s:palette.yellow, 'none'	   )
 
-
-" Links ------------------------------------------------------------------ {{{1
-
-" TODO
-
-
-" Filetype Specific ------------------------------------------------------ {{{1
-
-" TODO
-
-
-" Plugin Specific -------------------------------------------------------- {{{1
-
-" RAINBOW PARENTHESIS
-
-let g:rbpt_colorpairs = [
-			\ s:palette.brown,
-			\ s:palette.gray11,
-			\ s:palette.purple,
-			\ s:palette.green,
-			\ s:palette.white,
-			\ s:palette.blue,
-			\ s:palette.yellow,
-			\ s:palette.red,
-			\ s:palette.brown,
-			\ s:palette.gray13,
-			\ s:palette.cyan,
-			\ s:palette.darkpurple,
-			\ s:palette.darkgreen,
-			\ s:palette.darkblue,
-			\ s:palette.darkyellow,
-			\ s:palette.darkred
-			\ ]
